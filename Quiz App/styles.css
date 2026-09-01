@@ -51,6 +51,8 @@ body {
   border-radius: 10px;
   cursor:pointer;
 
+  transition:  background-color 1s ease
+
 }
 
 /* navigation */
@@ -79,4 +81,16 @@ body {
   background-color: transparent;
   cursor:pointer;
   font-weight: bold;
+}
+
+
+/* javascript classes  */
+
+.answer.correct {
+  background-color: green;
+  color: white;
+}
+.answer.wrong {
+  background-color: red;
+  color: white;
 }
